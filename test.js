@@ -1,8 +1,12 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 
-import {{NAME}} from "./index"
+import reversal from "./index"
 
-test("works", () => {
-  expect({{NAME}}(true)
+test("reversal with positive", () => {
+  expect(reversal((value) => value === "0")("0"))
     .toBe(false)
+})
+test("reversal with negative", () => {
+  expect(reversal((value) => value !== "0")("0"))
+    .toBe(true)
 })

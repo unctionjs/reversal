@@ -1,3 +1,5 @@
-export default function {{NAME}} (alpha: mixed): mixed {
-  return alpha
+export default function reversal (predicate: PredicateFunctionType): PredicateFunctionType {
+  return function reversalPredicate (anything: mixed): boolean {
+    return !predicate(anything)
+  }
 }

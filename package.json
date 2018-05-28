@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/reversal",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a predicate and returns the reverse of that predicate",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/reversal#readme",
+  "repository": "github:unctionjs/reversal",
+  "bugs": "https://github.com/unctionjs/reversal/issues",
   "main": "transpiled/index.js",
   "files": [
     "transpiled/index.js"
@@ -51,6 +51,5 @@
     "flow-bin": "0.61.0",
     "flow-typed": "2.2.3",
     "jest": "23.0.0"
-  },
-  "dependencies": {}
+  }
 }
