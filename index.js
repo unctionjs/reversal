@@ -1,5 +1,5 @@
-export default function reversal (predicate: PredicateFunctionType): PredicateFunctionType {
-  return function reversalPredicate (anything: mixed): boolean {
-    return !predicate(anything)
-  }
+export default function reversal (predicate) {
+  return function reversalPredicate(anything) {
+    return !predicate(anything);
+  };
 }
