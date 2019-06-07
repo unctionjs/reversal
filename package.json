@@ -1,6 +1,6 @@
 {
   "name": "@unction/reversal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Takes a predicate and returns the reverse of that predicate",
   "keywords": [
     "unction",
