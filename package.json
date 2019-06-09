@@ -57,7 +57,7 @@
     "nyc": "13.3.0",
     "tap": "12.6.1"
   },
-  "module": "index.js",
+  "module": "module.js",
   "browser": "browser.js",
   "nyc": {
     "require": [
