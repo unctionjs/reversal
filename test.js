@@ -1,6 +1,6 @@
-/* eslint-disable flowtype/require-return-type */
 
-import reversal from "./index";
+
+import reversal from "./";
 
 test("reversal with positive", () => {
   expect(reversal((value) => value === "0")("0"))
