@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> PredicateFunctionType => PredicateFunctionType
+> PredicateFunctionType<A> => A => boolean
 
 Takes a predicate and returns the reverse of that predicate.
 
