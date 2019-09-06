@@ -1,6 +1,6 @@
 
 
-import reversal from "./";
+import reversal from "./index.ts";
 
 test("reversal with positive", () => {
   expect(reversal((value) => value === "0")("0"))
