@@ -1,6 +1,6 @@
 {
   "name": "@unction/reversal",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Takes a predicate and returns the reverse of that predicate",
   "keywords": [
     "unction",
@@ -60,8 +60,7 @@
   },
   "module": "module.js",
   "browser": "browser.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "types": "types.d.ts",
   "sideEffects": false
 }
